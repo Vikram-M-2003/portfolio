@@ -1194,3 +1194,159 @@ color: gray;
 .fil0 {
   fill: #fffdef;
 }
+
+@media screen and (max-width:500px){
+  .hover{
+    display: none;
+  }
+  .navbar-nav{
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .herosection{
+    flex-direction: column-reverse;
+    margin: 0;
+    max-width: 100%;
+  }
+  .herocon{
+    width: 100%;
+  }
+  .heroimg{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .herocon h1{
+    font-size: 20px !important;
+  }
+  .about h2{
+    font-size: 50px;
+  }
+  .aboutus{
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .aboutimg{
+    width: 100%;
+  }
+  .aboutcon{
+    width: 100%;
+  }
+  .aboutcon p{
+    font-size: 15px !important;
+    line-height: 20px;
+  }
+  .bio h5{
+    font-size: 15px !important;
+  }
+  .skills h2{
+    font-size: 50px;
+  }
+  .skillflex{
+    flex-direction: column-reverse;
+  }
+  .skillimg{
+    width: 100%;
+  }
+  .skillimg img{
+    margin: 0;
+  }
+  .skillcon{
+    width: 100%;
+    margin-top: 30px;
+  }
+  #skill1{
+    gap: 10px;
+  }
+  #skill1 h5,#skill2 h5{
+    font-size: 15px;
+  }
+  #skill1 li,#skill2 li{
+    font-size: 10px;
+  }
+  #skill2{
+    gap: 130px;
+  }
+  .education h2{
+    font-size: 50px;
+  }
+  .eddetails{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .edimg{
+    width: 100%;
+  }
+  .ed{
+    width: 100%;
+  }
+  #educationdetails .svg1::after{
+    bottom: -170%;
+  }
+  #educationdetails,#educationdetail{
+    gap: 10px;
+  }
+  .project h2{
+    font-size: 50px;
+  }
+  .ui-tabs-nav{
+    margin-left: 0px !important;
+  }
+  .ui-tabs-nav li{
+    font-size: 15px;
+    margin-right: 0px !important;
+  }
+  #row3,#row33,#row333,#tabh{
+    margin: 5px 0px 0px -40px;
+  }
+  #viewmorework{
+    margin-top: 30px;
+  }
+  .modal-dialog{
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #popimg img{
+    width:330px !important;
+    height: 230px !important;
+  }
+  .btnclose{
+    margin-left: 350px;
+  }
+  .modal-backdrop.show{
+    opacity: 0 !important;
+  }
+  .contact h2{
+    font-size: 50px;
+  }
+  .contactus{
+    flex-direction: column;
+  }
+  .contactimg{
+    width: 100%;
+  }
+  .contactimg img{
+    width: 100%;
+    padding: 0;
+  }
+  .contactform input{
+    width: 250px !important;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .contactform textarea{
+    width: 250px !important;
+    margin-top: 0px !important;
+  }
+  .socialfoot{
+    display: none;
+  }
+  .contactform{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #formbtn{
+    margin: 30px 0px 0px 55px;
+  }
+  
+}
